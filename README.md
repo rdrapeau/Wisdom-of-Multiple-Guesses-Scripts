@@ -1,4 +1,9 @@
 # Wisdom-of-Multiple-Guesses-Scripts
 Python Script to Generate Figures
 
-Run `python analysis.py` (sample sizes for bootstrap are not correct yet so there might be some differences).
+Run `python generate_figures.py` to generate the figures in the paper.
+
+## About the Data
+
+### {date}_{x}guess.csv
+
