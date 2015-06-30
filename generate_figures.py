@@ -512,8 +512,8 @@ def time_per_image(game):
                 lower_interval.append(abs(y - np.percentile(indices[index], 5)))
                 upper_interval.append(abs(y - np.percentile(indices[index], 95)))
 
-        errorbar(xs_2, ys_2, yerr = [lower_2, upper_2], fmt = None, ecolor = '#2E78E6')
-        errorbar(xs_interval, ys_interval, yerr = [lower_interval, upper_interval], fmt = None, ecolor = '#ffa500')
+        errorbar(xs_2, ys_2, yerr = [lower_2, upper_2], fmt = "none", ecolor = '#2E78E6')
+        errorbar(xs_interval, ys_interval, yerr = [lower_interval, upper_interval], fmt = "none", ecolor = '#ffa500')
 
     x = range(3, 13) + range(15, 25)
     labels = [str(i) for i in xrange(1, 21)]
@@ -612,7 +612,7 @@ def estimators_2_interval_guess(game, sample_size):
 
 def main():
     font = {
-        'family' : 'normal',
+        'family' : 'Bitstream Vera Sans',
         'weight' : 'normal',
         'size'   : 20
         }
