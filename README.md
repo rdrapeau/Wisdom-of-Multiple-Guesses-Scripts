@@ -26,6 +26,6 @@ Thie file contains the data relating to the user. Namely, the user id and the sc
 
 Run `python generate_figures.py` to generate the figures in the paper.
 
-Please use Python 2.7.6 and matplotlib version 1.3.1 or higher.
+Please use [Python 2.7](https://www.python.org/download/releases/2.7/) and [matplotlib](http://matplotlib.org/) version 1.3.1 or higher.
 
 
