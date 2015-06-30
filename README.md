@@ -1,11 +1,12 @@
 # Wisdom of Multiple Guesses Scripts
-Run `python generate_figures.py` to generate the figures in the paper.
+
+See the [paper](http://www.stanford.edu/~jugander/papers/ec15-multipleguesses.pdf) for more details about the 2 experiments that were run.
 
 ## About the Data
 
 ### Exeriments
 
-See the [paper](http://www.stanford.edu/~jugander/papers/ec15-multipleguesses.pdf) for more details about the 2 experiments that were run. The labels for each are:
+The labels for each are:
 
 Mulitple Guesses Experiment = mge
 
@@ -20,3 +21,11 @@ Special: [ice_interval.csv](ice_data/ice_interval.csv) contain the data for the 
 ### {experiment label}_{users}.csv
 
 Thie file contains the data relating to the user. Namely, the user id and the score the user finished the experiment with. For more details about the scoring functions used, please see the paper.
+
+## Running Instructions
+
+Run `python generate_figures.py` to generate the figures in the paper.
+
+Please use Python 2.7.6 and matplotlib version 1.3.1 or higher.
+
+
