@@ -618,21 +618,21 @@ def main():
         }
     rc('font', **font)
 
-    mg_scores = format_scores(readCSV('november_21/november_21_users.csv'))
+    mg_scores = format_scores(readCSV('mge_data/mge_users.csv'))
     mg_game = getGame({
-        '1' : 'november_21/november_21_1guess.csv',
-        '2' : 'november_21/november_21_2guess.csv',
-        '3' : 'november_21/november_21_3guess.csv'
+        '1' : 'mge_data/mge_1guess.csv',
+        '2' : 'mge_data/mge_2guess.csv',
+        '3' : 'mge_data/mge_3guess.csv'
         })
     mg_game = clean_game(mg_game, mg_scores)
 
     figure_3(mg_game)
     figure_4(mg_game)
 
-    interval_scores = format_scores(readCSV('january_10/january_10_users.csv'))
+    interval_scores = format_scores(readCSV('ice_data/ice_users.csv'))
     interval_game = getGame({
-        '2' : 'january_10/january_10_2guess.csv',
-        'interval' : 'january_10/january_10_interval.csv',
+        '2' : 'ice_data/ice_2guess.csv',
+        'interval' : 'ice_data/ice_interval.csv',
         })
     interval_game = clean_game(interval_game, interval_scores)
 
