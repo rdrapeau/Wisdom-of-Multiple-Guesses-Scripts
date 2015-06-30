@@ -1,4 +1,4 @@
-user_id,image_index,time,guess,guess_interval,answer
+user_id,image_index,time,guess,guess_2,answer
 2,1,42991,20,60,51
 2,2,8415,60,80,118
 2,3,4827,60,90,101

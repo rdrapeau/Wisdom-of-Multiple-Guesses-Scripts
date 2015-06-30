@@ -8,6 +8,7 @@ Run `python generate_figures.py` to generate the figures in the paper.
 See the [paper](http://www.stanford.edu/~jugander/papers/ec15-multipleguesses.pdf) for more details about the 2 experiments that were run. The labels for each are:
 
 Mulitple Guesses Experiment = mge
+
 Interval Comparison Experiment = ice
 
 ### {experiment label}_{#}guess.csv
