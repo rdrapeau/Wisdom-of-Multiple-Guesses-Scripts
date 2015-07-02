@@ -24,7 +24,7 @@ Thie file contains the scores that each participant finished the experiment with
 
 ## Running Instructions
 
-Running `python generate_figures.py` will generate the result figures in the paper. Note that NUM_BOOTSTRAP_SAMPLES is set to 1000 here, whereas it was set to 10000 for the figures in the paper.
+Running `python generate_figures.py` will generate the result figures in the paper. Note that NUM_BOOTSTRAP_SAMPLES is set to 1000 here, whereas it was set to 10000 for the figures in the paper. If NUM_BOOTSTRAP_SAMPLES is too low then the MSE (mean squared error) may be zero for easy images for some estimators (median estimators in particular), leading to irregularities when ratios of MSEs are computed. If this happens, increase NUM_BOOTSTRAP_SAMPLES.
 
 Please use [Python 2.7](https://www.python.org/download/releases/2.7/) and [matplotlib](http://matplotlib.org/) version 1.3.1 or higher.
 
